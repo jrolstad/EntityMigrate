@@ -5,6 +5,15 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityMigrate.Models", "Ent
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityMigrate.EntityFramework", "EntityMigrate.EntityFramework\EntityMigrate.EntityFramework.csproj", "{3ED80CEB-A618-4673-8730-733C00472CF4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "EntityMigrate.Console", "EntityMigrate.Console\EntityMigrate.Console.csproj", "{DBF96CE4-CC8C-482B-84FF-F0D127C4D648}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{06948F8E-1B07-4381-BC6A-7401C4BB202C}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+	EndProjectSection
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -19,6 +28,10 @@ Global
 		{3ED80CEB-A618-4673-8730-733C00472CF4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{3ED80CEB-A618-4673-8730-733C00472CF4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{3ED80CEB-A618-4673-8730-733C00472CF4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DBF96CE4-CC8C-482B-84FF-F0D127C4D648}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DBF96CE4-CC8C-482B-84FF-F0D127C4D648}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DBF96CE4-CC8C-482B-84FF-F0D127C4D648}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DBF96CE4-CC8C-482B-84FF-F0D127C4D648}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

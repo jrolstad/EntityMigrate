@@ -1,18 +1,15 @@
 namespace EntityMigrate.EntityFramework.Migrations
 {
-    using System;
-    using System.Data.Entity;
     using System.Data.Entity.Migrations;
-    using System.Linq;
 
-    internal sealed class Configuration : DbMigrationsConfiguration<EntityMigrate.EntityFramework.DatabaseContext>
+    public class EntityMigrationConfiguration : DbMigrationsConfiguration<EntityMigrateDatabaseContext>
     {
-        public Configuration()
+        public EntityMigrationConfiguration()
         {
             AutomaticMigrationsEnabled = false;
         }
 
-        protected override void Seed(EntityMigrate.EntityFramework.DatabaseContext context)
+        protected override void Seed(EntityMigrateDatabaseContext context)
         {
             //  This method will be called after migrating to the latest version.
 
