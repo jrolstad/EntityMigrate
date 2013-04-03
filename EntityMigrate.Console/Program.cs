@@ -26,6 +26,9 @@ namespace EntityMigrate.Console
             var databaseContext = new EntityMigrateDatabaseContext();
 
             databaseInitializer.InitializeDatabase(databaseContext);
+
+            // Run any post migration work here (ex: installing SSIS packages, building matching database, etc)
+            // --> databaseContext.Database.ExecuteSqlCommand()
   
         }
 
